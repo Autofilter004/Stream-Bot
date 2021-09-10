@@ -28,8 +28,8 @@ admin_filter=filters.create(is_admin)
 async def start(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/VCPlayerBot')
+            InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='<b>Nᴏ sᴜᴘᴘᴏʀᴛ ᴀᴠᴀʟɪʙʟᴇ ʜᴇʀᴇ</b>'),
+            InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='<b>ɢɪᴠᴇ ᴛʜᴀᴛ ᴏʟᴅ ᴍᴀɴ ᴋᴜᴜʀʀᴀᴄʜᴜ ᴋᴀᴀɢᴊɪ</b>')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -44,8 +44,8 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/VCPlayerBot'),
+            InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='<b>Nᴏ sᴜᴘᴘᴏʀᴛ ᴀᴠᴀʟɪʙʟᴇ ʜᴇʀᴇ</b>'),
+            InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='<b>ɢɪᴠᴇ ᴛʜᴀᴛ ᴏʟᴅ ᴍᴀɴ ᴋᴜᴜʀʀᴀᴄʜᴜ ᴋᴀᴀɢᴊɪ</b>'),
         ]
         ]
     reply_markup = InlineKeyboardMarkup(buttons)
