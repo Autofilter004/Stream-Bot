@@ -222,8 +222,13 @@ allcmd = ["play", "player", f"play@{Config.BOT_USERNAME}", f"player@{Config.BOT_
 async def not_chat(_, m: Message):
     buttons = [
         [
-            InlineKeyboardButton('⚡️Make Own Bot', url='https://github.com/subinps/VCPlayerBot'),
-            InlineKeyboardButton('🧩 Join Here', url='https://t.me/subin_works'),
+            
+buttons = [
+       [
+            
+            InlineKeyboardButton('⚡️Make Own Bot', url='<b>🤯Open GitHub and make your own Bot 🤯</b>'),
+            InlineKeyboardButton('🧩 Join Here', url='<b>U Cant Join Here🙄 /n some things went wrong 🥺</b>'),
+
         ]
         ]
     await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/subinps/VCPlayerBot) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
