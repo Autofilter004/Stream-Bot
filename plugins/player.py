@@ -222,10 +222,8 @@ allcmd = ["play", "player", f"play@{Config.BOT_USERNAME}", f"player@{Config.BOT_
 async def not_chat(_, m: Message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='Gᴏ ᴀɴᴅ Fᴜᴄᴋ')
-        ],
-        [
-            InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='Nᴏᴋᴋɪ ᴇʀʀᴜɴɴᴏ ɪᴘᴏᴍ ᴋɪᴛᴛᴜᴍ')
+            InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='https://github.com'),
+            InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='https://t.me/'),
         ]
         ]
     await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
