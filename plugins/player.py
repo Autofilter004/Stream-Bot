@@ -222,8 +222,6 @@ allcmd = ["play", "player", f"play@{Config.BOT_USERNAME}", f"player@{Config.BOT_
 async def not_chat(_, m: Message):
     buttons = [
         [
-            
-buttons = [
             [
                 InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='Gᴏ ᴀɴᴅ Fᴜᴄᴋ'),
                 InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='Nᴏᴋᴋɪ ᴇʀʀᴜɴɴᴏ ɪᴘᴏᴍ ᴋɪᴛᴛᴜᴍ'),
