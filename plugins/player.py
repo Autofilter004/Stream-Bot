@@ -225,8 +225,8 @@ async def not_chat(_, m: Message):
             
 buttons = [
             [
-                InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='<b>Gᴏ ᴀɴᴅ Fᴜᴄᴋ</b>'),
-                InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='<b>Nᴏᴋᴋɪ ᴇʀʀᴜɴɴᴏ ɪᴘᴏᴍ ᴋɪᴛᴛᴜᴍ</b>'),
+                InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='Gᴏ ᴀɴᴅ Fᴜᴄᴋ'),
+                InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='Nᴏᴋᴋɪ ᴇʀʀᴜɴɴᴏ ɪᴘᴏᴍ ᴋɪᴛᴛᴜᴍ'),
             ]
 
         ]
