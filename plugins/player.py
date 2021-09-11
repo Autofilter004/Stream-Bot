@@ -224,10 +224,11 @@ async def not_chat(_, m: Message):
         [
             
 buttons = [
-       [
-            InlineKeyboardButton('⚡️Make Own Bot', url='<b>🤯Open GitHub and make your own Bot 🤯</b>'),
-            InlineKeyboardButton('🧩 Join Here', url='<b>U Cant Join Here🙄 /n some things went wrong 🥺</b>'),
-        ]
+            [
+                InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='<b>Gᴏ ᴀɴᴅ Fᴜᴄᴋ</b>'),
+                InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='<b>Nᴏᴋᴋɪ ᴇʀʀᴜɴɴᴏ ɪᴘᴏᴍ ᴋɪᴛᴛᴜᴍ</b>'),
+            ]
+
         ]
     await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
 
