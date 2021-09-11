@@ -28,8 +28,8 @@ admin_filter=filters.create(is_admin)
 async def start(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='<b>Nᴏ sᴜᴘᴘᴏʀᴛ ᴀᴠᴀʟɪʙʟᴇ ʜᴇʀᴇ</b>'),
-            InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='<b>ɢɪᴠᴇ ᴛʜᴀᴛ ᴏʟᴅ ᴍᴀɴ ᴋᴜᴜʀʀᴀᴄʜᴜ ᴋᴀᴀɢᴊɪ</b>')
+            InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='https://Nᴏ_sᴜᴘᴘᴏʀᴛ_ᴀᴠᴀʟɪʙʟᴇ_ʜᴇʀᴇ'),
+            InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='https://ɢɪᴠᴇ_ᴛʜᴀᴛ_ᴏʟᴅ_ᴍᴀɴ_ᴋᴜᴜʀʀᴀᴄʜᴜ_ᴋᴀᴀɢᴊɪ')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -44,8 +44,8 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='<b>Nᴏ sᴜᴘᴘᴏʀᴛ ᴀᴠᴀʟɪʙʟᴇ ʜᴇʀᴇ</b>'),
-            InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='<b>ɢɪᴠᴇ ᴛʜᴀᴛ ᴏʟᴅ ᴍᴀɴ ᴋᴜᴜʀʀᴀᴄʜᴜ ᴋᴀᴀɢᴊɪ</b>'),
+            InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='https://Nᴏ_sᴜᴘᴘᴏʀᴛ_ᴀᴠᴀʟɪʙʟᴇ_ʜᴇʀᴇ'),
+            InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='https://ɢɪᴠᴇ_ᴛʜᴀᴛ_ᴏʟᴅ_ᴍᴀɴ_ᴋᴜᴜʀʀᴀᴄʜᴜ_ᴋᴀᴀɢᴊɪ'),
         ]
         ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -59,8 +59,8 @@ async def show_help(client, message):
 async def repo_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='<b>ɢɪᴠᴇ ᴛʜᴀᴛ ᴏʟᴅ ᴍᴀɴ ᴋᴜᴜʀʀᴀᴄʜᴜ ᴋᴀᴀɢᴊɪ</b>'),
-            InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='<b>Nᴏ sᴜᴘᴘᴏʀᴛ ᴀᴠᴀʟɪʙʟᴇ ʜᴇʀᴇ</b>'),
+            InlineKeyboardButton('🧩Sᴏᴜʀᴄᴇ', url='https://ɢɪᴠᴇ_ᴛʜᴀᴛ_ᴏʟᴅ_ᴍᴀɴ_ᴋᴜᴜʀʀᴀᴄʜᴜ_ᴋᴀᴀɢᴊɪ'),
+            InlineKeyboardButton('⚙️Sᴜᴘᴘᴏʀᴛ', url='https://Nᴏ_sᴜᴘᴘᴏʀᴛ_ᴀᴠᴀʟɪʙʟᴇ_ʜᴇʀᴇ'),
             
         ],
     ]
